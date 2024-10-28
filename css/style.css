@@ -1,0 +1,136 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+body {
+      font-family: Arial, sans-serif;
+}
+
+header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 0;
+}
+
+nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+}
+
+.logo img {
+      width: 50px;
+      height: auto;
+}
+
+.menu ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+}
+
+.menu ul li a {
+      color: #fff;
+      text-decoration: none;
+}
+
+.menu ul li a:hover {
+      color: #ff9900;
+}
+
+#hero {
+      background-image: url('images/hero.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.hero-content {
+      text-align: center;
+}
+
+.hero-content h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+}
+
+.hero-content p {
+      font-size: 24px;
+      margin-bottom: 20px;
+}
+
+.hero-content .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ff9900;
+      color: #fff;
+      text-decoration: none;
+}
+
+.hero-content .btn:hover {
+      background-color: #333;
+      color: #f4f4f4;
+}
+
+#about-us {
+      background-color: #f4f4f4;
+      padding: 50px 0;
+}
+
+.about-content {
+      text-align: center;
+}
+
+.about-content h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+}
+
+.about-content p {
+      font-size: 24px;
+      margin-bottom: 20px;
+}
+
+footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 0;
+}
+
+.footer-content {
+      text-align: center;
+}
+
+.footer-content p {
+      font-size: 18px;
+}
+
+.learn-more-title {
+      font-size: 36px;
+      margin-bottom: 20px;
+}
+
+.learn-more-text {
+      font-size: 24px;
+      margin-bottom: 20px;
+}
+
+.learn-more-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ff9900;
+      color: #fff;
+}
+
+.learn-more-btn:hover {
+      background-color: #333;
+      color: #fff;
+}
+
+
